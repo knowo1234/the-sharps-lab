@@ -419,6 +419,10 @@ footer p {
         padding: 3rem 1.5rem;
         min-height: 400px;
     }
+
+    .quiz-section h2 {
+        font-size: 1.5rem;
+    }
 }
 
 /* Performance Optimizations */
