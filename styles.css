@@ -351,6 +351,10 @@ nav {
     color: var(--black);
 }
 
+.quiz-cta .nowrap {
+    white-space: nowrap;
+}
+
 .quiz-social-proof {
     text-align: center;
     font-size: 0.95rem;
