@@ -423,6 +423,10 @@ footer p {
     .quiz-section h2 {
         font-size: 1.5rem;
     }
+
+    .result-type {
+        font-size: 1.35rem;
+    }
 }
 
 /* Performance Optimizations */
