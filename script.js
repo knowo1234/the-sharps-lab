@@ -1,3 +1,10 @@
+// Random quiz count on page load (22-145)
+const quizCountElement = document.getElementById('quiz-count');
+if (quizCountElement) {
+    const randomCount = Math.floor(Math.random() * (145 - 22 + 1)) + 22;
+    quizCountElement.textContent = randomCount;
+}
+
 // Hamburger menu toggle
 const hamburger = document.querySelector('.hamburger');
 const navRight = document.querySelector('.nav-right');
