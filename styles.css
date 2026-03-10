@@ -172,18 +172,19 @@ nav {
     display: inline-block;
     background: var(--yellow-accent);
     color: var(--black);
-    padding: 1rem 2.5rem;
-    font-size: 1.125rem;
+    padding: 1.25rem 3rem;
+    font-size: 1.25rem;
     font-weight: 700;
     text-decoration: none;
     border-radius: 8px;
     transition: transform 0.2s, box-shadow 0.2s;
     border: 2px solid var(--black);
+    box-shadow: 0 6px 20px rgba(232, 255, 0, 0.4);
 }
 
 .cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(232, 255, 0, 0.5);
 }
 
 /* Results Preview Section */
